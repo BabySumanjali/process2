@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>TABLES</title>
+</head>
+<body>
+<table border="1" cellspacing="5">
+<caption><b>Shortcuts</b></caption>
+<tr >
+<th bgcolor="red">
+Shortcut
+</th>
+<th bgcolor="red">
+Descriptions
+</th>
+</tr>
+<tr bgcolor="grey">
+<td>
+ctrl + /
+</td>
+<td> comment/uncomment </td>
+<tr bgcolor="blue">
+<td>Shift + Down/Up</td>
+<td>Select Multiple lines</td>
+</tr>
+<tr bgcolor="green"><td>Shift + alt down/up</td>
+<td>Duplicate line</td>
+</tr>
+<tr bgcolor="purple">
+<td>Alt + down/up</td>
+<td>Move line</td>
+</tr>
+<tr bgcolor="cyan">
+<td>ctrl + shift + alt down/up</td>
+<td>Multiple colors</td>
+</tr>
+<tr bgcolor="orange" >
+<td>Windows + left/right</td>
+<td>Split Screen</td>
+</tr>
+</table>
+<br>
+<table border="1" cellspacing="5">
+<caption><b>Emmets</b></caption>
+<tr>
+<th>
+Symbol
+</th>
+<th>
+Descriptions
+</th>
+</tr>
+<tr>
+<td>
+>
+</td>
+<td> Child </td>
+<tr>
+<td>+</td>
+<td>Siblings</td>
+</tr>
+<tr><td>*</td>
+<td>multiply by </td>
+</tr>
+<tr>
+<td>{ }</td>
+<td>Content</td>
+</table>
+</body>
+</html>

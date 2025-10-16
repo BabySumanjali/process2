@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Registration Form</title>
+</head>
+<body>
+
+  <h2>Registration Form</h2>
+  <form action="https://formsubmit.co/babysumanjalik@gmail.com" method="POST">
+
+       <h4>Personal Information</h4>
+
+      <label for="fname">Full Name:</label><br>
+      <input type="text" id="fname" name="fullname" placeholder="Enter full name" required maxlength="50"><br><br>
+
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" placeholder="Enter email" required><br><br>
+
+      <label for="password">Password:</label><br>
+      <input type="password" id="password" name="password" required minlength="9"><br><br>
+
+      <label for="phone">Phone Number:</label><br>
+      <input type="tel" id="number" name="phone" pattern="[0-9]{10}" placeholder="1234567890"><br><br>
+
+      <label for="dob">Date of Birth:</label><br>
+      <input type="date" id="dob" name="dob"><br><br>
+
+      <label for="age">Age:</label><br>
+      <input type="number" id="age" name="age" min="10" max="100"><br><br>
+
+      <label>Gender:</label><br>
+      <input type="radio" id="male" name="gender" value="male">
+      <label for="male">Male</label>
+      <input type="radio" id="female" name="gender" value="female">
+      <label for="female">Female</label>
+      <input type="radio" id="other" name="gender" value="other">
+      <label for="other">Other</label><br><br>
+
+      <label for="color">Favorite Color:</label><br>
+      <input type="color" id="color" name="color"><br><br>
+      <h4>Address</h4>
+
+      <label for="address">Address:</label><br>
+      <textarea id="address" name="address" rows="4" cols="40" placeholder="Enter your full address"></textarea><br><br>
+
+      <label for="state">State:</label><br>
+      <select id="state" name="state">
+        <option value="">--Select--</option>
+        <option value="AP">Andhra Pradesh</option>
+        <option value="TS">Telangana</option>
+        <option value="TN">Tamil Nadu</option>
+        <option value="KA">Karnataka</option>
+      </select><br><br>
+
+      <h4>Other Details</h4>
+
+      <label>Hobbies:</label><br>
+      <input type="checkbox" id="sports" name="hobbies" value="sports">
+      <label for="sports">Sports</label>
+      <input type="checkbox" id="music" name="hobbies" value="music">
+      <label for="music">Music</label>
+      <input type="checkbox" id="reading" name="hobbies" value="reading">
+      <label for="reading">Reading</label><br><br>
+
+      <label for="profile">Upload Profile Picture:</label><br>
+      <input type="file" id="profile" name="profile"><br><br>
+
+      <label for="website">Your Website:</label><br>
+      <input type="url" id="website" name="website"><br><br>
+
+      <label for="experience">Experience Level (0-10):</label><br>
+      <input type="range" id="experience" name="experience" min="0" max="10"><br><br>
+
+      <input type="reset" value="Reset">
+      <!-- <input type="submit" value="Submit"> -->
+      <button type="submit">Submit</button> 
+     </table>
+  </form>
+ 
+</body>
+</html>
